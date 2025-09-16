@@ -21,9 +21,7 @@ const Home = () => {
             <img src={hero_title} alt='' className='cap-img'/>
             <p>After vanishing from Mumbai's underworld for a decade, mob boss Ojas Gambheera resurfaces seeking vengeance against rival crime lords.</p>
             <div className="her-btn">
-             <button className='btn' onClick={()=>{
-              navigate('/og')
-             }}> <img src={hero_play} alt=''/>Play</button>
+             <button className='btn'> <img src={hero_play} alt=''/>Play</button>
              <button className='btn dark-btn' > <img src={hero_info} alt=''/>More Info</button>
             </div>
                          <Titlecard/>
